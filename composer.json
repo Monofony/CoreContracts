@@ -4,12 +4,12 @@
     "description": "Generic abstractions related to Core",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "monofony/customer": "^1.10",
-        "monofony/user": "^1.10"
+        "sylius/user": "^1.12"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12"
+        "phpstan/phpstan": "^1.5"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.8-dev"
+            "dev-master": "0.10-dev"
         }
     }
 }
